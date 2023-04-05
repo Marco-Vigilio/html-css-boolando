@@ -29,6 +29,12 @@ header{
     justify-content: space-between;
 }
 
+/*pseudo class*/
+
+header div.contain>div{
+    margin: 20px 0;
+}
+
 /*colors*/
 
 .font-white{
