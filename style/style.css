@@ -20,6 +20,12 @@ header{
     height: 50px; /*da togliere poi*/
 }
 
+/*clearflix*/
+
+.flex{
+    display: flex;
+}
+
 /*colors*/
 
 .font-white{
