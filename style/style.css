@@ -52,10 +52,20 @@ header nav>section>ul>li{
     padding-right: .5rem;
 }
 
+/*immagini*/
 header section:nth-child(2)>img{
     width: 7rem;
-    height: auto;
 }
+
+header section:nth-child(3)>div{
+    justify-content: space-around;
+    padding-left: .3rem;
+}
+
+header section:nth-child(3)>div>img{
+    width: 1.1rem;
+}
+
 
 /*colors*/
 
@@ -86,11 +96,12 @@ header section:nth-child(2)>img{
 }
 
 .trat{
-    border: 3px blue black solid;
+    border: 3px blue solid;
 }
 
 .quadrato{
     width: 250px;
+    height: 500px;
     background-color: lime;
     border: black 2px dashed;
 }
