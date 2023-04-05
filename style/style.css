@@ -8,6 +8,10 @@ body{
     font-family: 'Cabin', sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
 header{
     background-color: #ff6900;
 }
@@ -19,6 +23,8 @@ header{
     margin: 0 auto;
 }
 
+
+
 /*clearflix*/
 
 .flex{
@@ -29,10 +35,26 @@ header{
     justify-content: space-between;
 }
 
+.flex-center{
+    align-items: center;
+}
+
 /*pseudo class*/
 
-header div.contain>div{
-    margin: 20px 0;
+header nav>section{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav>section>ul>li{
+    font-size: .8rem;
+    padding-right: .5rem;
+}
+
+header section:nth-child(2)>img{
+    width: 7rem;
+    height: auto;
 }
 
 /*colors*/
@@ -64,12 +86,11 @@ header div.contain>div{
 }
 
 .trat{
-    border: 3px black solid;
+    border: 3px blue black solid;
 }
 
 .quadrato{
-    width: 50px;
-    height: 50px;
+    width: 250px;
     background-color: lime;
     border: black 2px dashed;
 }
