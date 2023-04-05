@@ -17,7 +17,6 @@ header{
 .contain{
     max-width: 1100px;
     margin: 0 auto;
-    height: 50px; /*da togliere poi*/
 }
 
 /*clearflix*/
@@ -48,10 +47,19 @@ header{
     background-color: green;
 }
 
+/*solo per prova dopo andranno tolti*/
+
 .sfondo{
     background-color: red;
 }
 
 .trat{
     border: 3px black solid;
+}
+
+.quadrato{
+    width: 50px;
+    height: 50px;
+    background-color: lime;
+    border: black 2px dashed;
 }
