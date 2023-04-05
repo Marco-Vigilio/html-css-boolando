@@ -8,5 +8,32 @@ body{
     font-family: 'Cabin', sans-serif;
 }
 
+header{
+    background-color: #ff6900;
+}
+
 /*CREARE UN CONTENITORE IN LARGHEZZA CON MARGINE AUTO
  PER TUTTI (HEADER, MAIN, FOOTER)*/
+
+
+/*colors*/
+
+.font-white{
+    color: white;
+}
+
+.font-black{
+    color: black;
+}
+
+.font-gray{
+    color: #606060;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
