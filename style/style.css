@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+/*CREARE UN CONTENITORE IN LARGHEZZA CON MARGINE AUTO
+ PER TUTTI (HEADER, MAIN, FOOTER)*/
