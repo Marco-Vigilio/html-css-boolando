@@ -25,6 +25,10 @@ header{
     display: flex;
 }
 
+.flex-space-bet{
+    justify-content: space-between;
+}
+
 /*colors*/
 
 .font-white{
