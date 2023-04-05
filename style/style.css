@@ -14,7 +14,11 @@ header{
 
 /*CREARE UN CONTENITORE IN LARGHEZZA CON MARGINE AUTO
  PER TUTTI (HEADER, MAIN, FOOTER)*/
-
+.contain{
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 50px; /*da togliere poi*/
+}
 
 /*colors*/
 
@@ -36,4 +40,12 @@ header{
 
 .bg-green{
     background-color: green;
+}
+
+.sfondo{
+    background-color: red;
+}
+
+.trat{
+    border: 3px black solid;
 }
