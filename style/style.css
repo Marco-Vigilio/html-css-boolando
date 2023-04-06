@@ -69,17 +69,16 @@ header section:nth-child(3)>div>img{
 }
 /*main cards*/
 
-div.card{
-    margin: 3rem 0;
+div.row{
+    padding: 2.3rem 0 0;
 }
+
 
 section.product{
     width: 22rem;
     height: 32rem;
     position: relative;
     background-size: cover;
-
-    /*IMMAGINI DA SEPARARE PER OGNI CARD*/
     
 }
 
@@ -132,7 +131,7 @@ section.description div.sale div.price-before{
 
 /*hover*/
 
-div.card section.product.prod-uno{
+section.product.prod-uno{
     background-image: url('../img/1.webp');
 }
 
@@ -140,6 +139,45 @@ div.card:hover section.product.prod-uno{
     background-image: url('../img/1b.webp');
 }
 
+section.product.prod-due{
+    background-image: url('../img/2.webp');
+}
+
+div.card:hover section.product.prod-due{
+    background-image: url('../img/2b.webp');
+}
+
+section.product.prod-tre{
+    background-image: url('../img/3.webp');
+}
+
+div.card:hover section.product.prod-tre{
+    background-image: url('../img/3b.webp');
+}
+
+section.product.prod-quattro{
+    background-image: url('../img/4.webp');
+}
+
+div.card:hover section.product.prod-quattro{
+    background-image: url('../img/4b.webp');
+}
+
+section.product.prod-cinque{
+    background-image: url('../img/5.webp');
+}
+
+div.card:hover section.product.prod-cinque{
+    background-image: url('../img/5b.webp');
+}
+
+section.product.prod-sei{
+    background-image: url('../img/6.webp');
+}
+
+div.card:hover section.product.prod-sei{
+    background-image: url('../img/6b.webp');
+}
 /*colors*/
 
 .font-white{
