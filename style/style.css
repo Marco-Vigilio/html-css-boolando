@@ -138,6 +138,10 @@ section.description div.sale div.price-before{
 
 /*hover*/
 
+section.product div.favorite:hover{
+    color: red;
+}
+
 section.product.prod-uno{
     background-image: url('../img/1.webp');
 }
@@ -234,32 +238,4 @@ div.icone>img{
 
 .bg-black{
     background-color: #1a1a1a;
-}
-
-/*solo per prova dopo andranno tolti*/
-
-.sfondo{
-    background-color: red;
-}
-
-.trat{
-    border: 3px blue solid;
-}
-
-.quadrato{
-    position: relative;
-
-    width: 500px;
-    height: 50px;
-    background-color: lime;
-    border: black 2px dashed;
-}
-
-.quadratino{
-    position: absolute;
-    right: 20px;
-
-    width: 50px;
-    height: 50px;
-    background-color: blue;
 }
