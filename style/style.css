@@ -17,6 +17,10 @@ header{
     background-color: #ff6900;
 }
 
+footer{
+    background-color: #1a1a1a;
+}
+
 /*CREARE UN CONTENITORE IN LARGHEZZA CON MARGINE AUTO
  PER TUTTI (HEADER, MAIN, FOOTER)*/
 .contain{
@@ -181,6 +185,31 @@ section.product.prod-sei{
 div.card:hover section.product.prod-sei{
     background-image: url('../img/6b.webp');
 }
+
+/*footer*/
+
+footer section>div{
+    margin: 1.5rem 0;
+}
+
+footer section div>div{
+    margin: .1rem 0;
+}
+
+footer section div div:nth-child(2) div{
+    margin-right: .5rem;
+    font-size: .7rem;
+    /*aggiunta colore*/
+}
+
+footer section div:nth-child(2) div{
+    font-size: .7rem;
+}
+
+div.icone>img{
+    width: 1.5rem;
+}
+
 /*colors*/
 
 .font-white{
@@ -203,6 +232,10 @@ div.card:hover section.product.prod-sei{
     background-color: green;
 }
 
+.bg-black{
+    background-color: #1a1a1a;
+}
+
 /*solo per prova dopo andranno tolti*/
 
 .sfondo{
@@ -216,8 +249,8 @@ div.card:hover section.product.prod-sei{
 .quadrato{
     position: relative;
 
-    width: 250px;
-    height: 500px;
+    width: 500px;
+    height: 50px;
     background-color: lime;
     border: black 2px dashed;
 }
