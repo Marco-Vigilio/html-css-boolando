@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Cabin', sans-serif;
+    font-weight: bold;
 }
 
 ul{
@@ -68,16 +69,11 @@ header section:nth-child(3)>div>img{
 }
 /*main cards*/
 
-.card{
+div.card{
     margin: 3rem 0;
 }
 
-main div.card section>img{
-    width: 21.7rem;
-    position: relative;
-}
-
-.product{
+section.product{
     width: 22rem;
     height: 32rem;
     position: relative;
@@ -87,7 +83,7 @@ main div.card section>img{
     background-size: cover;
 }
 
-.favorite{
+section.product div.favorite{
     position: absolute;
     top: .5rem;
     right: 0;
@@ -97,18 +93,45 @@ main div.card section>img{
     background-color: white;
 }
 
-.discount{
+section.product div.discount{
     position: absolute;
     bottom: 2rem;
     left: 0;
 }
 
-div.discount>div{
+section.product div.discount>div{
     display: inline-block;
     color: white;
     font-size: .8rem;
     padding: .2rem .5rem;
 }
+
+section.description div.brand{
+    font-size: .8rem;
+    color: #606060;
+}
+
+section.description div.name{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+section.description div.sale>div{
+    display: inline-block;
+    font-size: .7rem;
+}
+
+section.description div.sale div.price{
+    color: red;
+}
+
+section.description div.sale div.price-before{
+    color: #606060;
+    text-decoration: line-through;
+}
+
+/*hover*/
+
 /*colors*/
 
 .font-white{
