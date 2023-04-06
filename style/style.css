@@ -15,10 +15,12 @@ ul{
 
 header{
     background-color: #ff6900;
+    color: white;
 }
 
 footer{
     background-color: #1a1a1a;
+    color: white;
 }
 
 /*CREARE UN CONTENITORE IN LARGHEZZA CON MARGINE AUTO
@@ -210,19 +212,11 @@ footer section div:nth-child(2) div{
     font-size: .7rem;
 }
 
-div.icone>img{
-    width: 1.5rem;
+footer div.icone>img{
+    width: 1.2rem;
 }
 
 /*colors*/
-
-.font-white{
-    color: white;
-}
-
-.font-black{
-    color: black;
-}
 
 .font-gray{
     color: #606060;
@@ -234,8 +228,4 @@ div.icone>img{
 
 .bg-green{
     background-color: green;
-}
-
-.bg-black{
-    background-color: #1a1a1a;
 }
