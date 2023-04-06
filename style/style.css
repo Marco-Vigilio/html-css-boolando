@@ -77,10 +77,10 @@ section.product{
     width: 22rem;
     height: 32rem;
     position: relative;
-    
-    /*IMMAGINI DA SEPARARE PER OGNI CARD*/
-    background-image: url('../img/1.webp');
     background-size: cover;
+
+    /*IMMAGINI DA SEPARARE PER OGNI CARD*/
+    
 }
 
 section.product div.favorite{
@@ -131,6 +131,14 @@ section.description div.sale div.price-before{
 }
 
 /*hover*/
+
+div.card section.product.prod-uno{
+    background-image: url('../img/1.webp');
+}
+
+div.card:hover section.product.prod-uno{
+    background-image: url('../img/1b.webp');
+}
 
 /*colors*/
 
